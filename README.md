@@ -97,7 +97,9 @@ https://github.com/ProGamerGov/Neural-Tools?fbclid=IwAR2aYbkqf-AAZuietcQMgraFMuz
 cycleGAN
 
 ![](https://i.imgur.com/dA6v9pk.png)
+
 linear color transfer
+
 ![](https://i.imgur.com/7OefFkB.png)
 
 **Image 2:**
@@ -105,7 +107,9 @@ linear color transfer
 cycleGAN
 
 ![](https://i.imgur.com/itCdb6R.png)
+
 linear color transfer
+
 ![](https://i.imgur.com/Uu2sZc3.png)
 
 **Image 3:**
@@ -113,7 +117,9 @@ linear color transfer
 cycleGAN
 
 ![](https://i.imgur.com/F5EWyzN.png)
+
 linea color transfer
+
 ![](https://i.imgur.com/2tqwF5s.png)
 
 **Image 4:**
@@ -121,5 +127,7 @@ linea color transfer
 cycleGAN
 
 ![](https://i.imgur.com/TcYB87C.png)
+
 linear color transfer
+
 ![](https://i.imgur.com/Dwf6Z7U.png)
