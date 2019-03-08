@@ -1,4 +1,4 @@
-# Computer Vision Homework 1 Report
+﻿# Computer Vision Homework 1 Report
 ## Training cycleGAN
 ### Code Modification
 #### Problem
@@ -10,12 +10,12 @@ This error should be because of the different version of pyTorch
 #### Solution
 We change the target dimesion using `unsqueeze()` function.
 
-For instence : 
+For instence :
 
-original : 
+original :
 `loss_GAN_A2B = criterion_GAN(pred_fake, target_real)`
 
-modified : 
+modified :
 `loss_GAN_A2B = criterion_GAN(pred_fake, target_real.unsqueeze(0))`
 
 ### Training Progress
@@ -92,6 +92,20 @@ https://github.com/ProGamerGov/Neural-Tools?fbclid=IwAR2aYbkqf-AAZuietcQMgraFMuz
 ![](https://i.imgur.com/cfNZ7x6.jpg)
 
 ### Result Images (cycleGAN vs Linear Color Transfer):
+*Linear Color ransfer* 的 input 為兩張圖：source_img和target_img，演算法會將source_img的色調上色到target_img，這個改變色調後的target_img即為output_img。
+
+這種方法在夏天與冬天的轉換上效果最佳。由於是色調上的轉換，斑馬變馬的效果最差。
+
+**EX:**
+**source_img:**
+![](https://i.imgur.com/P33OnO2.png)
+
+**target_img:**
+![](https://i.imgur.com/rBs4iut.png)
+
+**output_img:**
+![](https://i.imgur.com/4HEBeNj.png)
+
 **Image 1:**
 
 cycleGAN
